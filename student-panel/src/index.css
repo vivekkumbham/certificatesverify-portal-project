@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.step-item { text-align: center; }
+.step-item .step-circle {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: #d0d3db;
+  color: #444; display: flex; justify-content: center; align-items: center;
+  margin: 0 auto 6px;
+}
+.step-item.active .step-circle {
+  background: #4f46e5 !important;
+  color: white;
+}
+.input {
+  width: 100%; padding: 10px; border: 1px solid #ccc;
+  border-radius: 6px; margin-top: 4px;
+}
+.btn-primary {
+  background: #4f46e5; color: white;
+  padding: 10px 26px; border-radius: 8px;
+}
+.btn-secondary {
+  background: #ddd; padding: 10px 26px;
+  border-radius: 8px;
+}

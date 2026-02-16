@@ -1,0 +1,1 @@
+cd backend && npm install && set .env (see .env.example) && npm run dev

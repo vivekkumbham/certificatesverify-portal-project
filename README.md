@@ -1,0 +1,1 @@
+Study Docs App with separate student-panel and admin-panel. Start backend, then student-panel (5173) and admin-panel (5174).

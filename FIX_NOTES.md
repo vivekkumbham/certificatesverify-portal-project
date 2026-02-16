@@ -1,0 +1,1 @@
+Fixed missing backend routes and ensured Tailwind config for admin-panel and student-panel. Run npm install in backend, admin-panel, student-panel and start servers.
